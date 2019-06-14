@@ -1,0 +1,18 @@
+body{
+  background: grey;
+}
+
+h1{
+  color: red;
+  text-align: center;
+  font-size: 60px;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: 'Shadows Into Light', cursive;
+}
+form{
+  text-align: center;
+  font-size: 30px;
+  margin-left:auto;
+  font-family: 'Shadows Into Light', cursive;
+}
