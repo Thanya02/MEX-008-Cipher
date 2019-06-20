@@ -1,15 +1,55 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Lovers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <br>
+  <h1> Lovers </h1>
+  <div class="contenedor-form">
+    <div class="toggle">
+      <span></span>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    <br>
+    <div class="Información">
+      <h2> Información</h2>
+      <form action="#">
+        <input type="text" placeholder="Nombre" required>
+        <br>
+        <input type="email" placeholder="Email" required>
+        <br>
+        <input type="password" placeholder="Contraseña" required>
+        <br>
+        <input type="text" placeholder="Teléfono" required>
+        <br>
+        <input type="submit" placeholder="Continuar" required>
+      </form>
+    </div>
+    <br>
+<form >
+
+    <label for="numero-despl">Ingresa un número</label>
+    <br><br>
+    <input type="text" class="caja-texto" name="numeroDesplazar" id="numero" required />
+    <br><br>
+    <label for="ingresa-texto">Ingresa texto a codificar y decodificar</label>
+    <br><br>
+    <input type="text" class="caja-texto" name="textoCifrar" id="texto" required />
+    <br><br>
+    <label for="resultado">Tu texto codificado ó decodificado es</label>
+    <br><br>
+    <input type="text" class="caja-texto" name="textoCifrado" id="resultado" required />
+    <br><br><br>
+      <input type="button" class="boton" id="Codificar" name="codificar" value="Codificar" />
+      <input type="button" class="boton" id="Decodificar" name="decodificar" value="Decodificar" />
+      <br>
+      <input type="button" class="boton-inicio" id="inicio" name="inicio" value="Inicio"/>
+    <br><br><br>
+    </form>
+  </div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
 </html>

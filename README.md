@@ -33,6 +33,12 @@ La temática es libre. Tú debes pensar en qué situaciones de la vida real se n
 - El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no te preocupes, lo aprenderás durante este proyecto.
 - Tiempo para completarlo: 2 semanas divididas en 2 sprints (1 entrega cada viernes)
 
+- Quiénes son los principales usuarios de producto
+
+- Cuáles son los objetivos de estos usuarios en relación con tu producto.
+
+- Cómo crees que el producto que estás creando está resolviendo sus problemas.
+
 ## Objetivos de aprendizaje
 
 En este proyecto aprenderás a construir una aplicación web que interactúe con el usuario a través del navegador y la lógica basada en esa interacción. Dicho en palabras sencillas, aprenderás a:
@@ -210,7 +216,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
 ## Pistas sobre cómo comenzar a trabajar en el proyecto
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/), 
+   condiciones, algo como [Atom](https://atom.io/),
    [Visual Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com) o cualquier otro de tu preferencia.
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
    [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
@@ -221,7 +227,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
    aunque recomendaría que consideres probar :penguin: GNU/Linux como tu Sistema Operativo.
 3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   de [ este repositorio](https://github.com/Laboratoria/MEX-008-Cipher) de tu cohort, tus _coaches_ te compartirán un _link_ a un repositorio y te 
+   de [ este repositorio](https://github.com/Laboratoria/MEX-008-Cipher) de tu cohort, tus _coaches_ te compartirán un _link_ a un repositorio y te
    darán acceso de lectura en ese repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).
@@ -290,5 +296,54 @@ Esta sección está  para ayudarte a llevar un control de lo que vas completando
 * [ ] Cifra/descifra minúsculas
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [ ] Permite usar un `offset` negativo.
-* [ ] Modelo de negocio.
+* [ ] Modelo de negocio..
 
+-------------------------------------------------------------------------------
+
+LOVERS
+
+  Lovers surgio por la necesidad de mandar mensajes de forma segura a el novio(a), amigo(a) o amante, mensajes a traves de una plataforma digital y con la certeza de que sera segura esta via para mandar mensajes ya que solamente la persona que envia y la que recibe el mensaje tendran la posibilidad de saber que dice este. LOVERS es la web justo a tu medida.
+
+
+¿Cómo funciona?
+Lovers utiliza el cifrado Cesar, conocido y usado desde tiempos remotos por ser un sistema de cifrado, el cual ocupa el adecedario y el uso del cifrado por sustitución. Esto es que se tiene que hacer un desplazamiento, el número que se desee en cada letra de la palabra, frase o parrafo que se desee.
+
+Digamos que colocamos la palabra AMIGO y se quiere un desplazamiento de 2, el resultado del cifrado Cesar seria COKIQ. Esto es la letra A se sustituye por la letra C que es la que esta 2 lugares hacia la derecha de A y asi sucesivamente con cada letra de la palabra.
+
+En Lovers el usuario debe de seguir estos pasas para poder descifrar la palabra, frase o parrafo que le fue enviado:
+
+    Para cifrar:
+
+    - Da click en cifrar.
+    - Elige una clave númerica (no olvides este número ya que es necesario que lo sepa la persona a quien le envias el mensaje).
+    - Escribe tu mensaje.
+    - Teclea el botón del candado.
+    - Teclea el botón de enviar
+    - Y listo tu mensaje fue enviado a tu destinatario!
+
+    Para descifrar:
+
+ Teclea el botón de descifrar.
+    - Ingresa la clave que te brindarón.
+    - Pega el mensaje que quieres descifrar.
+    - Haz click en el botón del candado abierto.
+    - Y listo tu mensaje esta descifrado!
+
+  ¿Cómo se desidio el tema?
+  Se les pregunto a 15 individuos 11 hpmbres y 4 mujeres de diferentes edades y se vio que a la mayoria de los hombres en general se quejaban de que sus parejas les revisaban el celular o su correo eléctronico a escondidas y esto traia a su vida problemas que no deseaban tener, y esto hizo pensar que era una muy opcion para mejorar sus vidas.
+
+
+-  ¿Quiénes son los principales usuarios de producto?
+Los principales usuarios del producto son aquellas personas que están en una relación adicional a la preestablecida con antelación. Esta dirigido a las personas que tienen la intención de mandar mensajes a su amante o a su amigo(a), y quieren ante todo tener la seguridad que solamente el (ella) puede tener acceso a este mensaje, aunque cualquier persona revise el celular o la computadora solamente la persona  que envia y la que recibe el mensaje son las unicas que podran saber lo que dice este, en realidad no existe un nicho específico para Lovers ya que este es un mal que aqueja a muchas edades a nivel mundial.
+
+- ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
+El principal objetivo de cualquier usuario es mantener su privacidad ante cualquier situación o circunstancia y esto se logra pudiendo mandar mensajes de a través de Lovers es la forma segura de mandar mensajes ya que solamente la  persona que escribe el mensaje y la persona que recibe este podrán conocer  este.
+
+- ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
+  Ayudamos al usuario ya que disminuimos de forma considerable todos sus problemas de seguridad con sus mensajes ya que aunque alguien los quiera revisar y pretender ver los mensajes que le han llegado, la probabilidad de que puedan accesar a estos es nula.
+
+  Necesidades técnicas
+  Este proyecto se realizo en HTML, CSS y JAVASCRIPT.
+
+  Modelo de negocio.
+  Este producto puede ser orientado a personas de diferentes edades que tienen la insertidumbre por parte de cualquier persona. Este producto podría ser una aplicación, en la que cualquier persona pueda utilizarla teniendo el link, y ofertando a espacios publicitarios.

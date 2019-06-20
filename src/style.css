@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+  background: linear-gradient(30deg, pink, sienna, indianred);
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 60px;
+}
+h2{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+}
+h3{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+h4{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+h5{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+
+.contenedor-form{
+  position: relative;
+  background: rgba(0,0,0,.7);
+  width: 100%;
+  max-width: 500px;
+  margin: 48px auto;
+  color: white;
+  border-radius:5px;
+  text-align: center;
+
+}
+
+
+
+.contenedor-form h2{
+  margin:0 0 28px 0;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.contenedor-form input[type="text"],
+.contenedor-form input[type="password"],
+.contenedor-form input[type="email"],
+.contenedor-form input[type="number"] {
+      outline none;
+      background: rgba (0 0 0 .5);
+      display: block;
+      width:100%;
+      padding: 10px 15px;
+      color: black;
+      border:none;
+      border-radius: 2px;
+      border-bottom: 4px solid #ff851b;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      margin: 0 0 20px 0;
+      transition: all .5s ease;
+    }
+
+    .contenedor-form input [type="text"]:focus,
+    .contenedor-form input [type="password"]:focus,
+    .contenedor-form input [type="email"]:focus,
+    .contenedor-form input [type="number"]:focus{
+      border-bottom: 4px solid #0075d9;
+    }
+
+
+    .contenedor-form input[type= "submit"]{
+      background: #ff851b;
+      color: white;
+      border: none;
+      width: 100%,auto;
+      padding: 10px 0;
+      font-weight: normal;
+      font-family: 'Josefin Sans', sans-serif;
+      letter-spacing: 8px;
+      cursor: pointer;
+      transition: all .5s ease;
+  }
+
+  .contenedor-form input[type= "submit"]:hover {
+      background: rgba(0,117,217,0.70);
+  }
+
+
+  .contenedor-form .cifrado {
+    padding: 40px;
+    display: none;
+  }
+
+  .contenedor-form .cifrado:nth-child(3) {
+    display: block;
+  }
