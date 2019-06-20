@@ -16,7 +16,6 @@ window.cipher = {
         } else {
           resultado = resultado + textoUs[i];
         }
-
         }
       return resultado;
     },
